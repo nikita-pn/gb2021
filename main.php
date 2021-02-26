@@ -18,6 +18,11 @@
       <div class="col-sm">
       </div>
       <div class="col-6">
+        <?php 
+        include_once "ux.php";
+        htmlTable();
+        
+        ?>
         <table class="table table-bordered border-primary tab text-break">
           <tr class="rowses">
             <th class="w-25 p-3">Дата</th>
